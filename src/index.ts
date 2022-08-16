@@ -8,7 +8,7 @@ app.use(express.json())
 const PORT = 3000
 
 app.get('/ping', (_req, res) => {
-  res.send('pong :D')
+  res.send('pongggg')
 })
 
 app.use('/api/diaries', diaryRouter)
