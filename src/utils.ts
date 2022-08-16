@@ -1,4 +1,4 @@
-import { NewDiaryEntry } from './types'
+import { NewDiaryEntry } from './types.d'
 import { Weather, Visibility } from './enums'
 
 const parseComment = (commentFromRequest: any): string => {
