@@ -8,7 +8,7 @@ const diaries_1 = __importDefault(require("./routes/diaries"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 const PORT = 3000;
-app.get('/ping', (_req, res) => {
+app.get('/', (_req, res) => {
     res.send('ready');
 });
 app.get('/ping', (_req, res) => {
