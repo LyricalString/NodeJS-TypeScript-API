@@ -12,7 +12,7 @@ app.get('/', (_req, res) => {
 })
 
 app.get('/ping', (_req, res) => {
-  res.send('works?')
+  res.send('works? :D')
 })
 
 app.use('/api/diaries', diaryRouter)
